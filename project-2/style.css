@@ -67,3 +67,17 @@ body {
     height: 100%;
     z-index: 1;
 }
+
+/* MOdal Animation  */
+
+@keyframes animationModal {
+    from {
+        top: -300px;
+        opacity: 0;;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
