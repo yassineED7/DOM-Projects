@@ -54,3 +54,19 @@ body {
     overflow: hidden;
     transition: .5s;
 }
+
+/* JavaScript Styling Link  */
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: "-";
+    font-size: 25px;
+    transition: .5s;
+}
